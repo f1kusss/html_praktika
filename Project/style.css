@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: 'Engravers Gothic';
+    src: local('Engravers Gothic Regular'), local('Engravers-Gothic-Regular'),
+        url('EngraversGothic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color:#080808; 
+}
+footer{
+	background-color:#161616; 
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color:white;
+	padding-bottom: 1%;
+	font-size: 2.5vh;
+}
+.name{
+	color:white;
+    padding-top: 12px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+header{
+  	background-color:#161616; 
+	display: flex;
+	flex-direction: row; 
+	justify-content: center; 
+	flex-wrap: wrap;
+	border-bottom:2px solid white;
+    
+}
+
+.t{ 
+    color:white;
+	text-align: center;            
+   	padding-top: 50%;
+	font-size: 4.5vh;	
+}
+.but{
+  	height:67px;
+  	width:123px;
+  	background: #161616;
+  	color:white;
+  	border: 2px solid #58FF1E;
+	border-image: linear-gradient(45deg,#A410FF,#58FF1E);
+	border-image-slice: 1;
+    font-size: 18;
+	padding-bottom: 5px;;
+    
+}
+.but:hover{
+	background: #2e2e2e
+}
+.but:active{
+	background: rgb(0, 0, 0);
+}
+.about{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-image: url(ph.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h1,h2,button,li{
+	font-family: 'Engravers Gothic';
+}
+.we{
+
+	width: 100%;
+	background-image: url(ph1.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+
+	
+}
+.aa{
+	display: flex;
+	flex-direction: row;
+}
+
+.rotate {
+	display: inline-block;
+	white-space: nowrap;
+	writing-mode: vertical-lr;
+	font-size: 16vh;
+	transform: rotate(180deg);
+	color:white;
+	margin-top: 1%;
+  }
+.sorry{
+	font-size: 8.05vh;
+	padding-left: 7%;
+	color:white;
+	padding-top: 20%;
+}
+.who{
+	font-size: 5vh;
+	color:white;
+	padding-left: 7%;
+	padding-top: 7%;
+}
+.ourRules{
+	height: 100%;
+	width: 100%;
+	background-image: url(ph12.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.rules{
+	color:white;
+	padding-left: 10%;	
+	font-size: 5.85vh;
+}
+li {
+	list-style: none;
+  }
+  li::before {
+	content: '';
+	display: inline-block;
+	height:5vh; 	
+	width:5vw;
+	background-image: url('Ellipse 4.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+  }
+
+.list{
+	padding-top: 10%;
+}
+.whyWe{
+	height: 100%;
+	width: 100%;
+	background-image: url(ph12.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.rotate1 {
+	display: inline-block;
+	white-space: nowrap;
+	writing-mode: vertical-lr;
+	font-size: 16vh;
+	transform: rotate(180deg);
+	margin-top: 3%;
+	color:white
+  }
+  .check{
+
+	width: 100%;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+  .check_products{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color:white;
+	font-size: 13vh;
+  }
+  .products{
+	  height: 100%;
+	  padding-top: 10%;
+	  display: flex;
+	  flex-direction: row;
+  }
+  .product1{
+	  height: 45%;
+	  width: 16.7%;
+	  margin-left: 6.5%;
+	  border-radius: 15%;
+	  background-color: #58FF1E;
+  }
+  .product2{
+		height: 45%;
+		width: 16.7%;
+		margin-left: 6.5%;
+	border-radius: 15%;
+	background-color: #A410FF;
+  }
+  .img{
+		object-fit: cover;
+	  	border-radius: 15%;
+	  	margin-top: 7%;
+	  	margin-left: 9%;
+  }
+  .price{
+	  	display: flex;
+	  	justify-content: center;
+	  	text-align: center;
+	  	font-size: 3.5vh;
+	  
+  }
+  .price1{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		color:white;
+		font-size: 3.5vh;
+  }
